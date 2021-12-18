@@ -1,10 +1,10 @@
-name: Go
+name: Go quality check
 
 on: [push, pull_request]
 
 jobs:
 
-  quality_check:
+  build:
     runs-on: ubuntu-latest
 
     steps:
